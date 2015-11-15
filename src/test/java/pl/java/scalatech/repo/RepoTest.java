@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import lombok.extern.slf4j.Slf4j;
-import pl.java.scalatech.config.TestSelectorConfig;
+import pl.java.scalatech.config.TestJpaSelectorConfig;
 import pl.java.scalatech.domain.Invoice;
 import pl.java.scalatech.domain.InvoiceType;
 import pl.java.scalatech.domain.Product;
@@ -23,7 +23,7 @@ import pl.java.scalatech.repository.InvoiceRepository;
 import pl.java.scalatech.repository.ProductRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = TestSelectorConfig.class)
+@ContextConfiguration(classes = TestJpaSelectorConfig.class)
 @Slf4j
 @Transactional
 public class RepoTest {
