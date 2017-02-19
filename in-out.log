@@ -1200,3 +1200,497 @@
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions> 
+2016-06-03 18:45:25   [main] INFO  pl.java.scalatech.BootCamp - Starting BootCamp on przodownik-r1 with PID 9428 (/home/przodownik/blog/basicCamp/build/classes/main started by przodownik in /home/przodownik/blog/basicCamp) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Fri Jun 03 18:45:30 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Fri Jun 03 18:45:30 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Fri Jun 03 18:45:30 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Fri Jun 03 18:45:30 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2016-06-03 18:45:30.496, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2016-06-03 18:45:30.496, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2016-06-03 18:45:30.502, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2016-06-03 18:45:30.355, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2016-06-03 18:45:30.499, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2016-06-03 18:45:30   [main] INFO  pl.java.scalatech.BootCamp - Started BootCamp in 4.839 seconds (JVM running for 5.179) 
+2016-06-03 18:49:15   [main] INFO  pl.java.scalatech.BootCamp - Starting BootCamp on przodownik-r1 with PID 10692 (/home/przodownik/blog/basicCamp/build/classes/main started by przodownik in /home/przodownik/blog/basicCamp) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=4), name=hammer, price=10, availability=true) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=5), name=spoon, price=0.34, availability=false) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=6), name=gun, price=123, availability=false) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=7), name=fork, price=23, availability=true) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=8), name=car, price=12345, availability=true) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=10), role=ADMIN) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=11), role=BUSINESS) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=Fri Jun 03 18:49:19 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=Fri Jun 03 18:49:19 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=Fri Jun 03 18:49:19 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=Fri Jun 03 18:49:19 CEST 2016, invoiceType=VAT) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=16), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2016-06-03 18:49:19.751, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=17), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=13), name=grocery, paid=false, dateOfInvoice=2016-06-03 18:49:19.751, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=18), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=15), name=petrolStation, paid=true, dateOfInvoice=2016-06-03 18:49:19.755, invoiceType=VAT), Invoice(super=AbstractEntity(id=12), name=tools, paid=false, dateOfInvoice=2016-06-03 18:49:19.655, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=9), role=USER) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=19), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=9), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=14), name=shopping, paid=true, dateOfInvoice=2016-06-03 18:49:19.753, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2016-06-03 18:49:19   [main] INFO  pl.java.scalatech.BootCamp - Started BootCamp in 4.325 seconds (JVM running for 4.676) 
+2017-02-19 12:47:58   [Test worker] INFO  p.j.s.rest.SampleRestControllerTest - Starting SampleRestControllerTest on przodownik-r1 with PID 4075 (started by przodownik in /home/przodownik/blog/basicCamp) 
+2017-02-19 12:47:58   [Test worker] INFO  p.j.s.rest.SampleRestControllerTest - No active profile set, falling back to default profiles: default 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=1), name=Samsung, location=korea) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=2), name=Everlast, location=usa) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Company(super=AbstractEntity(id=3), name=yamaha, location=japan) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=1), name=hammer, price=10, availability=true) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=2), name=spoon, price=0.34, availability=false) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=3), name=gun, price=123, availability=false) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=4), name=fork, price=23, availability=true) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Product(super=AbstractEntity(id=5), name=car, price=12345, availability=true) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=1), role=USER) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=2), role=ADMIN) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - ++++++ roles !!!Role(super=AbstractEntity(id=3), role=BUSINESS) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=1), name=tools, paid=false, dateOfInvoice=Sun Feb 19 12:48:02 CET 2017, invoiceType=VAT) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=2), name=grocery, paid=false, dateOfInvoice=Sun Feb 19 12:48:02 CET 2017, invoiceType=VAT) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=3), name=shopping, paid=true, dateOfInvoice=Sun Feb 19 12:48:02 CET 2017, invoiceType=VAT) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - Invoice(super=AbstractEntity(id=4), name=petrolStation, paid=true, dateOfInvoice=Sun Feb 19 12:48:02 CET 2017, invoiceType=VAT) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=1), role=USER) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=1), firstname=slawek, lastName=borowiec, email=przodownik@tlen.pl, login=przodownik, password=123, roles=[Role(super=AbstractEntity(id=1), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=2), name=grocery, paid=false, dateOfInvoice=2017-02-19 12:48:02.21, invoiceType=VAT)], company=Company(super=AbstractEntity(id=1), name=Samsung, location=korea)) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=1), role=USER) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=2), firstname=agnieszka, lastName=borowiec, email=borowiecA@tlen.pl, login=poka, password=123, roles=[Role(super=AbstractEntity(id=1), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=2), name=grocery, paid=false, dateOfInvoice=2017-02-19 12:48:02.21, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=1), role=USER) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=3), firstname=kalina, lastName=borowiec, email=bbak@tlen.pl, login=bak, password=123, roles=[Role(super=AbstractEntity(id=1), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=4), name=petrolStation, paid=true, dateOfInvoice=2017-02-19 12:48:02.214, invoiceType=VAT), Invoice(super=AbstractEntity(id=1), name=tools, paid=false, dateOfInvoice=2017-02-19 12:48:02.116, invoiceType=VAT)], company=Company(super=AbstractEntity(id=3), name=yamaha, location=japan)) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - ++++!  role Role(super=AbstractEntity(id=1), role=USER) 
+2017-02-19 12:48:02   [Test worker] INFO  pl.java.scalatech.BootCamp - User(super=AbstractEntity(id=4), firstname=piotr, lastName=kowalski, email=pkowalski@google.com, login=kowalski, password=123, roles=[Role(super=AbstractEntity(id=1), role=USER)], ownInvoice=[Invoice(super=AbstractEntity(id=3), name=shopping, paid=true, dateOfInvoice=2017-02-19 12:48:02.212, invoiceType=VAT)], company=Company(super=AbstractEntity(id=2), name=Everlast, location=usa)) 
+2017-02-19 12:48:02   [Test worker] INFO  p.j.s.rest.SampleRestControllerTest - Started SampleRestControllerTest in 4.042 seconds (JVM running for 5.931) 
+2017-02-19 12:48:02   [Test worker] INFO  p.j.s.downloader.DownloaderTest - +++  <?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.webserviceX.NET" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.webserviceX.NET" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET">
+      <s:element name="GetWeather">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CityName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWeatherResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWeatherResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCitiesByCountry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCitiesByCountryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCitiesByCountryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetWeatherSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWeather" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWeatherResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountrySoapIn">
+    <wsdl:part name="parameters" element="tns:GetCitiesByCountry" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountrySoapOut">
+    <wsdl:part name="parameters" element="tns:GetCitiesByCountryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpGetIn">
+    <wsdl:part name="CityName" type="s:string" />
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpGetIn">
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpPostIn">
+    <wsdl:part name="CityName" type="s:string" />
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpPostIn">
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="GlobalWeatherSoap">
+    <wsdl:operation name="GetWeather">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get weather report for all major cities around the world.</wsdl:documentation>
+      <wsdl:input message="tns:GetWeatherSoapIn" />
+      <wsdl:output message="tns:GetWeatherSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get all major cities by country name(full / part).</wsdl:documentation>
+      <wsdl:input message="tns:GetCitiesByCountrySoapIn" />
+      <wsdl:output message="tns:GetCitiesByCountrySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="GlobalWeatherHttpGet">
+    <wsdl:operation name="GetWeather">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get weather report for all major cities around the world.</wsdl:documentation>
+      <wsdl:input message="tns:GetWeatherHttpGetIn" />
+      <wsdl:output message="tns:GetWeatherHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get all major cities by country name(full / part).</wsdl:documentation>
+      <wsdl:input message="tns:GetCitiesByCountryHttpGetIn" />
+      <wsdl:output message="tns:GetCitiesByCountryHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="GlobalWeatherHttpPost">
+    <wsdl:operation name="GetWeather">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get weather report for all major cities around the world.</wsdl:documentation>
+      <wsdl:input message="tns:GetWeatherHttpPostIn" />
+      <wsdl:output message="tns:GetWeatherHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get all major cities by country name(full / part).</wsdl:documentation>
+      <wsdl:input message="tns:GetCitiesByCountryHttpPostIn" />
+      <wsdl:output message="tns:GetCitiesByCountryHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GlobalWeatherSoap" type="tns:GlobalWeatherSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWeather">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetWeather" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCitiesByCountry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GlobalWeatherSoap12" type="tns:GlobalWeatherSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWeather">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetWeather" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCitiesByCountry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GlobalWeatherHttpGet" type="tns:GlobalWeatherHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetWeather">
+      <http:operation location="/GetWeather" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <http:operation location="/GetCitiesByCountry" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GlobalWeatherHttpPost" type="tns:GlobalWeatherHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetWeather">
+      <http:operation location="/GetWeather" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <http:operation location="/GetCitiesByCountry" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GlobalWeather">
+    <wsdl:port name="GlobalWeatherSoap" binding="tns:GlobalWeatherSoap">
+      <soap:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GlobalWeatherSoap12" binding="tns:GlobalWeatherSoap12">
+      <soap12:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GlobalWeatherHttpGet" binding="tns:GlobalWeatherHttpGet">
+      <http:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GlobalWeatherHttpPost" binding="tns:GlobalWeatherHttpPost">
+      <http:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions> 
+2017-02-19 12:48:30   [Test worker] INFO  p.j.s.downloader.DownloaderTest - +++  <?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.webserviceX.NET" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.webserviceX.NET" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.webserviceX.NET">
+      <s:element name="GetWeather">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CityName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWeatherResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWeatherResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCitiesByCountry">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CountryName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCitiesByCountryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCitiesByCountryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetWeatherSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWeather" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWeatherResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountrySoapIn">
+    <wsdl:part name="parameters" element="tns:GetCitiesByCountry" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountrySoapOut">
+    <wsdl:part name="parameters" element="tns:GetCitiesByCountryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpGetIn">
+    <wsdl:part name="CityName" type="s:string" />
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpGetIn">
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpPostIn">
+    <wsdl:part name="CityName" type="s:string" />
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWeatherHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpPostIn">
+    <wsdl:part name="CountryName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCitiesByCountryHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="GlobalWeatherSoap">
+    <wsdl:operation name="GetWeather">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get weather report for all major cities around the world.</wsdl:documentation>
+      <wsdl:input message="tns:GetWeatherSoapIn" />
+      <wsdl:output message="tns:GetWeatherSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get all major cities by country name(full / part).</wsdl:documentation>
+      <wsdl:input message="tns:GetCitiesByCountrySoapIn" />
+      <wsdl:output message="tns:GetCitiesByCountrySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="GlobalWeatherHttpGet">
+    <wsdl:operation name="GetWeather">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get weather report for all major cities around the world.</wsdl:documentation>
+      <wsdl:input message="tns:GetWeatherHttpGetIn" />
+      <wsdl:output message="tns:GetWeatherHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get all major cities by country name(full / part).</wsdl:documentation>
+      <wsdl:input message="tns:GetCitiesByCountryHttpGetIn" />
+      <wsdl:output message="tns:GetCitiesByCountryHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="GlobalWeatherHttpPost">
+    <wsdl:operation name="GetWeather">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get weather report for all major cities around the world.</wsdl:documentation>
+      <wsdl:input message="tns:GetWeatherHttpPostIn" />
+      <wsdl:output message="tns:GetWeatherHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Get all major cities by country name(full / part).</wsdl:documentation>
+      <wsdl:input message="tns:GetCitiesByCountryHttpPostIn" />
+      <wsdl:output message="tns:GetCitiesByCountryHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GlobalWeatherSoap" type="tns:GlobalWeatherSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWeather">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetWeather" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <soap:operation soapAction="http://www.webserviceX.NET/GetCitiesByCountry" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GlobalWeatherSoap12" type="tns:GlobalWeatherSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWeather">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetWeather" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <soap12:operation soapAction="http://www.webserviceX.NET/GetCitiesByCountry" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GlobalWeatherHttpGet" type="tns:GlobalWeatherHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetWeather">
+      <http:operation location="/GetWeather" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <http:operation location="/GetCitiesByCountry" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GlobalWeatherHttpPost" type="tns:GlobalWeatherHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetWeather">
+      <http:operation location="/GetWeather" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCitiesByCountry">
+      <http:operation location="/GetCitiesByCountry" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GlobalWeather">
+    <wsdl:port name="GlobalWeatherSoap" binding="tns:GlobalWeatherSoap">
+      <soap:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GlobalWeatherSoap12" binding="tns:GlobalWeatherSoap12">
+      <soap12:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GlobalWeatherHttpGet" binding="tns:GlobalWeatherHttpGet">
+      <http:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GlobalWeatherHttpPost" binding="tns:GlobalWeatherHttpPost">
+      <http:address location="http://www.webservicex.net/globalweather.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions> 

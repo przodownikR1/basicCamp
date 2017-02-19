@@ -1,7 +1,5 @@
 package pl.java.scalatech;
 
-import static com.google.common.collect.Lists.newArrayList;
-
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
@@ -11,10 +9,12 @@ import org.h2.server.web.WebServlet;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.embedded.ServletRegistrationBean;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
 import com.google.common.collect.Lists;
+
+import static com.google.common.collect.Lists.newArrayList;
 
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.domain.Company;
